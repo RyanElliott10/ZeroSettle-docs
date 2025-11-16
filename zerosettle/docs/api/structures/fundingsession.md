@@ -106,4 +106,3 @@ Task {
 ## See Also
 
 - [ZeroSettleManager](/docs/api/classes/zerosettlemanager)
-- [PaymentProcessor](/docs/api/protocols/paymentprocessor)

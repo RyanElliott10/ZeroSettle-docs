@@ -82,7 +82,7 @@ var isAuthenticated: Bool
 
 This property is `@Published` and updates automatically when authentication state changes.
 
-###wallet Address
+### walletAddress
 
 The current user's wallet address, if authenticated.
 
@@ -312,6 +312,4 @@ func formatAddress(_ address: String) -> String
 ## See Also
 
 - [ZeroSettleConfig](/docs/api/structures/zerosettleconfig)
-- [ZeroSettleDelegate](/docs/api/protocols/zerosettledelegate)
-- [AuthenticationManager](/docs/api/classes/authenticationmanager)
 - [Architecture Guide](/docs/architecture)

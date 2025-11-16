@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Simple Integration',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Add Web3 payments to your iOS app in minutes. Phone number authentication,
+        embedded wallets, and fiat-to-crypto conversion built in.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Multi-Chain Support',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Support for Solana, Base, Ethereum, and other EVM chains. Your users get
+        the blockchain that works best for your use case.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Automated Payouts',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Configure payout tables to automatically split payments across multiple
+        recipients. Perfect for creator economies and revenue sharing.
       </>
     ),
   },
