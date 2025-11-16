@@ -1,6 +1,5 @@
 [build]
-publish = "ZeroSettleKit.doccarchive/"
-###### Change it to your doccarchive file's name
+command = "npm run build"
 
 [[redirects]]
 from = "/documentation/*"
