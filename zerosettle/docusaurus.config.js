@@ -20,15 +20,13 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://docs.zerosettle.com',
+  url: 'https://docs.zerosettle.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'zerosettle', // Usually your GitHub org/user name.
-  projectName: 'zerosettle-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -78,7 +76,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://github.com/yourusername/ZeroSettleKit',
+            href: 'https://github.com/gdroel/wordplay/tree/main/ZeroSettleKit',
             label: 'GitHub',
             position: 'right',
           },
@@ -118,7 +116,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/yourusername/ZeroSettleKit',
+                href: 'https://github.com/gdroel/wordplay/tree/main/ZeroSettleKit',
               },
             ],
           },
@@ -133,10 +131,4 @@ const config = {
     }),
 };
 
-//export default config;
-
-export default {
-  title: "ZeroSettleKit",
-  url: 'https://docs.zerosettle.io',
-  baseUrl: '/',
-};
+export default config;
