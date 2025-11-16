@@ -133,4 +133,10 @@ const config = {
     }),
 };
 
-export default config;
+//export default config;
+
+export default {
+  title: "ZeroSettleKit",
+  url: 'https://docs.zerosettle.io',
+  baseUrl: '/',
+};
